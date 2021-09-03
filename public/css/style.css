@@ -1,0 +1,19 @@
+body{
+    background-image: url(/images/bg.jpg);
+    margin: 0;
+    background-attachment: fixed;
+  
+
+}
+header div{
+    text-align: center;
+    color: white;
+   
+}
+header img{
+width: 70%;
+}
+header div span{
+  position: relative;
+  margin-top: 10px;
+}
