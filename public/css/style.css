@@ -52,3 +52,63 @@ section:first-of-type div:last-of-type{
     padding: 50px;
     
 }
+/* fin de ma première séction--*/
+/*début de ma deuxième séction -- */
+
+section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(41, 39, 39, 0.288);
+    text-align: center;
+}
+section:nth-of-type(2) div{
+    background-color: black;
+    width: 70%;
+    margin: auto;
+}
+section:nth-of-type(2) h2{
+    color: white;
+}
+section:nth-of-type(2) hr{
+    width: 5%;
+    color:rgba(245, 245, 245, 0.904);
+}
+section:nth-of-type(2) p{
+    color: rgba(245, 245, 245, 0.822);
+    text-transform: uppercase;
+}
+/*1 ere div background color black section 2---*/
+
+section:nth-of-type(2) .image1{
+    display: flex;
+    width: 70%;
+    flex: 1;
+  }
+section:nth-of-type(2) .image1 div:first-of-type img{
+  width: 100%;
+}
+section:nth-of-type(2) .image1 div:last-of-type img{
+width: 100%;
+}
+/* fin de la 1ère image de la class "image1" dans la deuxième section*/
+
+section:nth-of-type(2) .image2{
+    display: flex;
+    flex: 1;
+    width: 70%;
+}
+section:nth-of-type(2) .image2 div:first-of-type img{
+    width: 100%;
+  }
+  
+section:nth-of-type(2) .image2 div:last-of-type img{
+    width: 100%;
+    }
+    /* /* fin de la 2ème image de la class "image3" dans la deuxième section*/
+    
+    /* fin de ma 2 ème section--- */
+
+
+
+
+
