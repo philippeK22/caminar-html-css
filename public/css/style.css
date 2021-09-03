@@ -17,3 +17,38 @@ header div span{
   position: relative;
   margin-top: 10px;
 }
+/*fin du header -------*/
+
+/*début de ma 1ère séction---*/
+
+
+section:first-of-type{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+   margin: auto;
+    
+}
+section:first-of-type div{
+  
+    background-color: white;
+    padding: 10px;
+}
+section:first-of-type h1{
+    
+    text-transform: uppercase;
+}
+section:first-of-type div:first-of-type p{
+ 
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+section:first-of-type hr{
+    width: 15%;
+}
+section:first-of-type div:last-of-type{
+    background-color: rgba(245, 245, 245, 0.863);
+    padding: 50px;
+    
+}
