@@ -2,8 +2,8 @@ body{
     background-image: url(/images/bg.jpg);
     margin: 0;
     background-attachment: fixed;
-  
-
+    
+    
 }
 header div{
     text-align: center;
@@ -157,6 +157,7 @@ section:last-of-type .texte4 div:first-of-type{
 }
 section:last-of-type .texte4 div:first-of-type h2{
     color: white;
+    
 }
 section:last-of-type .texte4 div:first-of-type p{
     color: rgb(163, 151, 151);
@@ -195,8 +196,47 @@ section:last-of-type .image4 div:first-of-type img{
 section:last-of-type div:last-of-type{
 background-color: white;
 width: 70%;
+
 }
 /*fin du style de ma troisième section*/
+
+/* Début du Footer -- */
+
+ footer .reseaux{
+    color: white;
+   
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    list-style-type: none;
+    justify-content: center;
+    
+
+}
+footer li{
+    font-size: 25px;
+    padding: 5px;
+    
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+/* fin du footer --*/
+
+
+  
+
+    
+
+ 
+    
+    
+    
 
 
 
