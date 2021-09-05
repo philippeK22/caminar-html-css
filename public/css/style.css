@@ -134,7 +134,7 @@ section:nth-of-type(2) .image2 div:last-of-type img{
  section:last-of-type div:last-of-type{
     
    background-color: white;
-   width: 100%;
+   width: 70%;
 }
  
 /* fin de premierè div d'image et texte  */
@@ -151,7 +151,7 @@ section:last-of-type .texte4{
 
 
 section:last-of-type .texte4 div:first-of-type{
-    background: black;
+    background: rgb(31, 28, 28);
     flex: 1;
   
 }
@@ -159,14 +159,12 @@ section:last-of-type .texte4 div:first-of-type h2{
     color: white;
 }
 section:last-of-type .texte4 div:first-of-type p{
-    color: whitesmoke;
+    color: rgb(163, 151, 151);
 }
 
 section:last-of-type .texte4 div:last-of-type{
-    text-align: center;
-    justify-content: center;
     flex: 1;
-    width: 100%;
+  
     
 }
 section:last-of-type .texte4 div:last-of-type img{
@@ -175,7 +173,7 @@ section:last-of-type .texte4 div:last-of-type img{
 /* fin de la deuxième div d'image------ */
 
 
-section:last-of-type .image3{
+section:last-of-type .image4{
     display: flex;
     flex: 1;
     width: 70%;
@@ -184,18 +182,26 @@ section:last-of-type .image3{
     justify-content: center;
   
 }
+section:last-of-type .image4 div:first-of-type{
+ width: 70%;
+ margin: auto;
+}
 
-section:last-of-type .image3 div:first-of-type img{
+section:last-of-type .image4 div:first-of-type img{
  width: 100%;
 }
 
 
 section:last-of-type div:last-of-type{
 background-color: white;
-width: 100%;
-
-
+width: 70%;
 }
+/*fin du style de ma troisième section*/
+
+
+
+
+
 
 
 
