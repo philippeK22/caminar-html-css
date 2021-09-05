@@ -114,6 +114,145 @@ section:nth-of-type(2) .image2 div:last-of-type img{
     
     /* fin de ma 2 ème section--- */
 
+    /*Début de ma 3ème Section---*/
+    
+    section:last-of-type .image3{
+     display: flex;
+     width: 70%;
+     margin: auto;
+     text-align: center;
+     justify-content: center;
+  
+    }
+        
+   
+    section:last-of-type .image3 div:first-of-type img{
+        width: 100%;
+    }
+       
+    
+ section:last-of-type div:last-of-type{
+    
+   background-color: white;
+   width: 100%;
+}
+ 
+/* fin de premierè div d'image et texte  */
+
+section:last-of-type .texte4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    
+  
+}
+
+
+section:last-of-type .texte4 div:first-of-type{
+    background: black;
+    flex: 1;
+  
+}
+section:last-of-type .texte4 div:first-of-type h2{
+    color: white;
+}
+section:last-of-type .texte4 div:first-of-type p{
+    color: whitesmoke;
+}
+
+section:last-of-type .texte4 div:last-of-type{
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    
+}
+section:last-of-type .texte4 div:last-of-type img{
+    width: 100%;
+}
+/* fin de la deuxième div d'image------ */
+
+
+section:last-of-type .image3{
+    display: flex;
+    flex: 1;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+section:last-of-type .image3 div:first-of-type img{
+ width: 100%;
+}
+
+
+section:last-of-type div:last-of-type{
+background-color: white;
+width: 100%;
+
+
+}
+
+
+
+
+       
+ 
+
+
+    
+   
+    
+
+   
+    
+
+
+
+
+
+      
+     
+
+      
+        
+       
+   
+   
+       
+       
+      
+       
+        
+      
+
+
+
+           
+           
+            
+        
+         
+          
+            
+       
+       
+        
+     
+            
+         
+      
+           
+    
+     
+  
+      
+
+
 
 
 
