@@ -129,13 +129,13 @@ section:nth-of-type(2) .image2 div:last-of-type img{
     section:last-of-type .image3 div:first-of-type img{
         width: 100%;
     }
+    .mod{
+        background-color:white;
+    }
        
     
- section:last-of-type div:last-of-type{
-    
-   background-color: white;
-   width: 70%;
-}
+ 
+
  
 /* fin de premierè div d'image et texte  */
 
@@ -145,6 +145,7 @@ section:last-of-type .texte4{
     justify-content: center;
     width: 70%;
     margin: auto;
+    
     
   
 }
@@ -194,9 +195,12 @@ section:last-of-type .image4 div:first-of-type img{
 
 
 section:last-of-type div:last-of-type{
-background-color: white;
+
 width: 70%;
 
+}
+.mod{
+    background-color:white;
 }
 /*fin du style de ma troisième section*/
 
@@ -227,6 +231,33 @@ footer a{
     color: white;
 }
 /* fin du footer --*/
+
+/* début de la respensive ----*/
+
+@media screen and (max-width:620px) {
+
+    section:nth-of-type(2) .image1,div,img{
+        flex-direction: column;
+        
+    }
+    section:last-of-type .texte4,div{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        width: 70%;
+        
+    }
+
+    footer ul{
+        align-items: center;
+        
+
+    }
+        
+}
+      
+
+    
 
 
   
